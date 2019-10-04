@@ -5,58 +5,73 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Bootstrap-Portfolio</title>
+    <title>Bootstrap Portfolio</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="../Bootstrap-Portfolio/css/style.css">
 </head>
 
 <body>
-    <div class="container-fluid p-0">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <h1 class="navbar-brand bg-success p-2 mx-md-4 rounded">David Vega</h1>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+
+            <a class="navbar-brand" href="#">David Vega</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Portfolio</a>
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="contact.html">Contact</a>
                     </li>
                 </ul>
             </div>
-        </nav>
-    </div>
-    <!-- End of Navigaton -->
+    </nav>
 
-    <div class="card mb-3 container-fluid my-4">
-        <div class="row no-gutters">
-            <div class="col-md-4">
-                <img src="images/dvegabiopic.jpg" class="card-img" alt="">
-            </div>
-            <div class="col-md-8">
-                <div class="card-body">
-                    <h1 class="card-title">About Me</h1>
-                    <p class="card-text">
-                        My name is David Vega and I am 38 years old. I live in Haverhill, MA with my fiance Adam and our
-                        dog
-                        Cooper. I am a Contracts Administrator for an energy company based in Calgary. I am looking to
-                        supplement my Associate Degree in Information Technology with some web development. I have been
-                        practicing html, css and javascript for approximately three (3) years.
-                    </p>
-                    <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+    <div class="row">
+        <div class="col-sm-12 pt-5 px-auto py-auto">
+            <div class="container-fluid">
+                <div class="card border-0 container-fluid my-4">
+                    <div class="row no-gutters">
+                        <div class="col-lg-3">
+                            <img src="images/dvegabiopic.jpg" class=" container-fluid img-fluid" alt="">
+                        </div>
+                        <div class="container-fluid col-lg-9">
+                            <div class="card-body">
+                                <h2 class="card-title">About Me</h2>
+                                <p class="card-text">
+                                    My name is David Vega and I am 38 years old. I live in Haverhill, MA with my
+                                    fiance Adam and our dog Cooper. I am a Contracts Administrator for an energy
+                                    company based in Calgary. I am looking to supplement my Associate Degree in
+                                    Information Technology with some web development. I have been practicing html,
+                                    css and javascript for approximately three (3) years.</p>
+                                <p>My decision to go to a bootcamp was due in part because I needed some consistency
+                                    with coding. My job is very demanding and it is very easy to put practicing
+                                    aside when there no real incentive or some level of accountability.</p>
+                                <p>I am currently taking on small personal projects to further develop my skills. I
+                                    am assisting sister with her website for her small business down in Florida
+                                    where she is Licensed Medical Esthetician providing skin care products and
+                                    services in the
+                                    Apollo Beach area.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+    <footer class="footer navbar fixed-bottom navbar-dark bg-dark">
+        <a class="navbar-brand ml-auto mr-auto p-0" href="#"><span>&copy; 2019 Copyright</span></a>
+    </footer>
+    </div>
+
 </body>
 
 </html>

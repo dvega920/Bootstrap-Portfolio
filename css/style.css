@@ -1,10 +1,26 @@
 .navbar .navbar-brand {
     font-size: 28px;
     font-weight: bold;
-    color: #ffffff;
+    /* color: #ffffff; */
 }
 
 .navbar-brand span {
     font-weight: 100;
     font-size: small;
+}
+
+.jumbotron {
+    background-color: black;
+}
+
+.jumbotron p {
+    color: #ffffff;
+}
+.display-1{
+font-family: 'Rock Salt', cursive;
+color: #ffffff;
+}
+
+.viewportfoliobtn {
+    font-family: "Rock Salt", "Cursive";
 }

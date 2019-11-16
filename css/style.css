@@ -14,16 +14,17 @@ background: black;;
 background-image: url(../images/dvsac2011headshot.jpg);
 background-repeat: no-repeat;
 background-size: contain;
-/* max-height: max-content; */
 height: 100vh;
-background-position: center;
-}
+max-width: 2800px;
+background-attachment: fixed;}
 
 .wrapper {
-    display: block;
-    float: left;
     text-align: center;
+    margin-top: 250px;
+    margin-right: 500px;
+    text-align: right;
 }
+
 .jumbotron h1{
 font-family: 'Rock Salt', cursive;
 font-size: 5rem;
@@ -37,7 +38,8 @@ color: #ffffff;
 .jumbotron p {
     color: #ffffff;
     font-family: "Julius Sans One", sans-serif;
-    font-size: 2rem;
+    font-size: 1.5rem;
+    margin-top: 30px;
 }
 
 

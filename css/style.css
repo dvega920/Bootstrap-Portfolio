@@ -1,5 +1,10 @@
 body {
     background-color: black;
+    background-image: url(../images/dvsac2011headshot.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 200vh;
+    background-attachment: fixed;
 }
 
 .navbar{
@@ -23,12 +28,8 @@ a.nav-link:hover {
 
 .jumbotron {
     padding-top: 0;
-background: black;;
-background-image: url(../images/dvsac2011headshot.jpg);
-background-repeat: no-repeat;
-background-size: contain;
-height: auto;
-background-attachment: fixed;
+    background: black;;
+    
 }
 
 .wrapper{

@@ -1,11 +1,24 @@
+body {
+    background-color: black;
+}
+
+.navbar{
+    background: transparent;
+}
+
 .navbar-brand {
+    font-family: 'Julius Sans One', sans-serif;
     font-size: 28px;
     font-weight: bold;
 }
 
+a.nav-link:hover {
+    color: gray;
+}
 
-.navbar a {
+.navbar a{
     color: #ffffff;
+    font-family: 'Julius Sans One', sans-serif;
 }
 
 .jumbotron {
@@ -13,17 +26,18 @@ background: black;;
 background-image: url(../images/dvsac2011headshot.jpg);
 background-repeat: no-repeat;
 background-size: contain;
-height: 100vh;
+height: auto;
 background-attachment: fixed;
 }
 
 .wrapper{
     text-align: center;
-    margin-top: 300px;
+    margin-top: 200px;
     /* border: 2px solid purple; */
 }
 
 .wrapper h1{
+margin: 0;
 font-family: 'Rock Salt', cursive;
 font-size: 5rem;
 color: #ffffff;

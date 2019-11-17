@@ -6,72 +6,145 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Bootstrap Portfolio</title>
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="../Bootstrap-Portfolio/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One|Rock+Salt&display=swap" rel="stylesheet">
+    <script src="http://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/cb45d866e1.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container">
+    <nav class="navbar navbar-expand-lg">
 
-            <a class="navbar-brand" href="index.html">David Vega</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="portfolio.html">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                </ul>
-            </div>
+        <a class="navbar-brand" href="index.html">David Vega</a>
+
+        <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
     </nav>
 
-    <div class="row">
-        <div class="col-sm-12 pt-5 px-auto py-auto">
-            <div class="container-fluid">
-                <div class="card border-0 container-fluid my-4">
-                    <div class="row no-gutters">
-                        <div class="col-lg-3">
-                            <img src="images/dvegabiopic.jpg" class=" container-fluid img-fluid" alt="">
-                        </div>
-                        <div class="container-fluid col-lg-9">
-                            <div class="card-body">
-                                <h2 class="card-title">About Me</h2>
-                                <p class="card-text">
-                                    My name is David Vega and I am 38 years old. I live in Haverhill, MA with my
-                                    fiance Adam and our dog Cooper. I am a Contracts Administrator for an energy
-                                    company based in Calgary. I am looking to supplement my Associate Degree in
-                                    Information Technology with some web development. I have been practicing html,
-                                    css and javascript for approximately three (3) years.</p>
-                                <p>My decision to go to a bootcamp was due in part because I needed some consistency
-                                    with coding. My job is very demanding and it is very easy to put practicing
-                                    aside when there no real incentive or some level of accountability.</p>
-                                <p>I am currently taking on small personal projects to further develop my skills. I
-                                    am assisting my sister with her website for her small business down in Florida
-                                    where she is a licensed Medical Esthetician providing skin care products and
-                                    services in the Apollo Beach area.</p>
-                            </div>
-                        </div>
-                    </div>
+  <div class="container-fluid wrapper">
+        <h1>David Vega</h1>
+        <p class="title">Web Designer | Developer</p>
+        <a class="viewportfoliobtn btn btn-dark btn-md" href="portfolio.html" role="button">View
+            Portfolio</a>
+        <div>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="https://github.com/dvega920" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+
+    </div>
+
+    <div class="dvbiopic row">
+        <div class="col">
+            <img src="images/dvegabiopic.jpg" alt="">
+        </div>
+        <div class="dvbio col">
+            <h1>About Me</h1>
+            <p>My name is David Vega and I am 38 years old. I live in Haverhill, MA with my fiance Adam and our dog
+                Cooper. I am a
+                Contracts Administrator for an energy company based in Calgary. I am looking to supplement my Associate
+                Degree in
+                Information Technology with some web development. I have been practicing html, css and javascript for
+                approximately
+                three (3) years. My decision to go to a bootcamp was due in part because I needed some consistency with
+                coding. My job
+                is very demanding and it is very easy to put practicing aside when there is no real incentive or some
+                level of
+                accountability. I am currently taking on small personal projects to further develop my skills. I am
+                assisting my sister
+                with her website for her small business down in Florida where she is a Licensed Medical Esthetician
+                providing skin care
+                products and services in the Apollo Beach area</p>
+            <div class="resume-icon">
+                <a href="DVega Resume 2019.pdf" target="_blank"><i class="far fa-file"></i></a>
+                <h2>Resume</h2>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="estimate row">
+
+        <!-- Button trigger modal -->
+        <!-- <div class="home-estimate"> -->
+        <div>
+            <h1>Get a Free Estimate!</h1>
+            <div class="home-estimate-btn">
+                <button type="button" class="btn modal-btn" data-toggle="modal" data-target="#exampleModalLong">
+                    Get Estimate
+                </button>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Contact Me</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
                 </div>
+                <div class="modal-body">
+                    <form>
+                        <input type="text" class="form-control" placeholder="First name">
+                        <input type="text" class="form-control" placeholder="Last name">
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">Email address</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                placeholder="name@example.com">
+
+                        </div>
+
+                        <input class="form-control" type="text" placeholder="Message">
+                </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Submit</button>
             </div>
         </div>
     </div>
-    <footer class="footer navbar fixed-bottom navbar-dark bg-dark">
-        <a class="navbar-brand ml-auto mr-auto p-0" href="#"><span>&copy; 2019 Copyright</span></a>
-    </footer>
+
+
+    <div>
+        <footer>
+            <p>David Vega</p>
+            <p>dvega920@gmail.com</p>
+            <p>857-998-1543</p>
+        </footer>
     </div>
 
     <!-- Scripts -->
+
     <script src="http://code.jquery.com/jquery-3.4.1.min.js"
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"

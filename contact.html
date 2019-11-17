@@ -18,7 +18,7 @@
 <body>
     <nav class="navbar navbar-expand-lg">
 
-        <a class="navbar-brand" href="index.html">David Vega</a>
+        <a class="navbar-brand" href="index.html">Contact Me</a>
 
         <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,17 +42,43 @@
         </div>
     </nav>
 
-    <div class="container">
-        <form>
-            <div class="row">
-                <div class="col">
-                    <input type="text" class="form-control" placeholder="First name">
+    <!-- <div class="container">
+        <form class="container contact-form">
+            <input type="text" class="form-control" placeholder="First name">
+            <input type="text" class="form-control" placeholder="Last name">
+            <input type="email" class="form-control" placeholder="Email">
+
+            <button type="button" class="contact-btn btn btn-outline-light mt-5">Submit</button>
+        </form>
+    </div> -->
+
+    <!-- Button trigger modal -->
+    <h1 class="contact-estimate h1FontStyle">Get a Free Estimate!</h1>
+    <button type="button" class="btn modal-btn" data-toggle="modal" data-target="#exampleModalLong">
+        Get Estimate
+    </button>
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Contact Me</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
                 </div>
-                <div class="col">
-                    <input type="text" class="form-control" placeholder="Last name">
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Submit</button>
                 </div>
             </div>
-        </form>
+        </div>
     </div>
 
     <!-- Scripts -->

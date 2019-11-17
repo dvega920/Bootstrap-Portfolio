@@ -22,6 +22,7 @@ a.nav-link:hover {
 }
 
 .jumbotron {
+    padding-top: 0;
 background: black;;
 background-image: url(../images/dvsac2011headshot.jpg);
 background-repeat: no-repeat;

@@ -3,7 +3,7 @@ body {
     background-image: url(../images/dvsac2011headshot.jpg);
     background-repeat: no-repeat;
     background-size: contain;
-    height: 200vh;
+    height: 100vh;
     background-attachment: fixed;
 }
 
@@ -69,31 +69,30 @@ color: #ffffff;
 .dvbio {
     color: #ffffff;
     font-family: 'Julius Sans One', sans-serif;
-    font-size: 12px;
+    font-size: 18px;
 }
 
-/* .d-block{
-height: auto;
-background-size: cover;
-margin: 30px auto;
-} */
-
-.contact-form {
+.resume-icon {
+    display: block;
+    margin-top: 20px;
     text-align: center;
-    margin: 150px 10px;
+    color: white;
+    font-family: "Julius Sans One", sans-serif;
+    font-size: 100px;
 }
 
-.contact-form .form-control {
-    margin-bottom: 20px;
+.resume-icon h2 {
+    font-size: 20px;
+}
+
+.form-control {
+    margin-bottom: 10px;
 }
 
 .modal-btn {
-    display: block;
-    float: right;
     background-color: gray;
     color: white;
     margin-top: 10px;
-    margin-right: 300px;
     font-family: 'Julius Sans One', sans-serif;
 }
 
@@ -101,12 +100,41 @@ margin: 30px auto;
     background-color: lightgray;
 }
 
-.h1FontStyle {
+.estimate{
+    display: block;
+    text-align: center;
+}
+
+.estimate h1 {
+    margin-top: 50px;
     font-family: 'Julius Sans One', sans-serif;
     color: white;
 }
 
-.contact-estimate {
-    margin-top: 200px;
-    margin-left: 700px;
+.contact {
+    display: block;
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 500p;
+    font-family: 'Julius Sans One', sans-serif;
+    color: white;
+}
+
+.far {
+    color: white;
+}
+
+.fab {
+    margin: 20px 10px;
+    color: white;
+    font-size: 40px;
+}
+
+footer {
+    margin-top: 60px;
+    text-align: center;
+    font-family: 'Julius Sans One', sans-serif;
+    width: 100%;
+    color: white;
+    line-height: 1.0;
 }

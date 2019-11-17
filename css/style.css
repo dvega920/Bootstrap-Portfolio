@@ -60,19 +60,22 @@ color: #ffffff;
     margin-top: 200px;
 }
 
-.dvbiopic img {
-    margin-left: 100px;
+.dvbiopic row {
+    /* margin-left: 100px; */
+    margin: auto;
     width: 500px;
     float: left;
 }
 
 .dvbio {
+    text-align: center;
     color: #ffffff;
     font-family: 'Julius Sans One', sans-serif;
     font-size: 18px;
 }
 
 .dvbio p {
+    text-align: justify;
     opacity: .7;
 }
 
@@ -99,11 +102,10 @@ color: #ffffff;
     font-size: 35px;
     margin-top: 10px;
 }
-.resume h1 {
-    opacity: .8;
+.offer-text {
     margin-top: 50px;
     font-family: 'Julius Sans One', sans-serif;
-    font-size: 20px;
+    font-size: 28px;
     color: white;
 }
 
@@ -116,8 +118,7 @@ color: #ffffff;
 }
 
 .resume-icon h2 {
-    font-size: 20px;
-    opacity: .7;
+    font-size: 16px;
 }
 
 .contact {

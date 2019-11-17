@@ -56,21 +56,57 @@ color: #ffffff;
     font-family: "Rock Salt", "Cursive";
 }
 
+.dvbiopic {
+    margin-top: 200px;
+}
 
+.dvbiopic img {
+    margin-left: 100px;
+    width: 500px;
+    float: left;
+}
 
+.dvbio {
+    color: #ffffff;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 12px;
+}
 
-
-.d-block{
+/* .d-block{
 height: auto;
 background-size: cover;
 margin: 30px auto;
-}
+} */
 
-.carousel-item{ 
-    background-color: black;
-}
-
-footer {
+.contact-form {
     text-align: center;
-    padding-top: 20px;
+    margin: 150px 10px;
+}
+
+.contact-form .form-control {
+    margin-bottom: 20px;
+}
+
+.modal-btn {
+    display: block;
+    float: right;
+    background-color: gray;
+    color: white;
+    margin-top: 10px;
+    margin-right: 300px;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+.btn:hover {
+    background-color: lightgray;
+}
+
+.h1FontStyle {
+    font-family: 'Julius Sans One', sans-serif;
+    color: white;
+}
+
+.contact-estimate {
+    margin-top: 200px;
+    margin-left: 700px;
 }

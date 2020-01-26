@@ -34,7 +34,7 @@ a.nav-link:hover {
 
 .wrapper{
     text-align: center;
-    margin-top: 200px;
+    margin-top: 250px;
     /* border: 2px solid purple; */
 }
 
@@ -60,30 +60,26 @@ color: #ffffff;
     margin-top: 200px;
 }
 
-.dvbiopic img {
-    margin-left: 100px;
+.dvbiopic row {
+    /* margin-left: 100px; */
+    margin: auto;
     width: 500px;
     float: left;
 }
 
 .dvbio {
+    text-align: center;
     color: #ffffff;
     font-family: 'Julius Sans One', sans-serif;
     font-size: 18px;
 }
 
-.resume-icon {
-    display: block;
-    margin-top: 20px;
-    text-align: center;
-    color: white;
-    font-family: "Julius Sans One", sans-serif;
-    font-size: 100px;
+.dvbio p {
+    text-align: justify;
+    opacity: .7;
 }
 
-.resume-icon h2 {
-    font-size: 20px;
-}
+
 
 .form-control {
     margin-bottom: 10px;
@@ -100,15 +96,29 @@ color: #ffffff;
     background-color: lightgray;
 }
 
-.estimate{
+.resume {
     display: block;
     text-align: center;
+    font-size: 35px;
+    margin-top: 10px;
 }
-
-.estimate h1 {
+.offer-text {
     margin-top: 50px;
     font-family: 'Julius Sans One', sans-serif;
+    font-size: 28px;
     color: white;
+}
+
+.resume-icon {
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+    font-family: "Julius Sans One", sans-serif;
+    font-size: 100px;
+}
+
+.resume-icon h2 {
+    font-size: 16px;
 }
 
 .contact {
@@ -128,6 +138,10 @@ color: #ffffff;
     margin: 20px 10px;
     color: white;
     font-size: 40px;
+}
+
+.fab:hover{
+    color: slategray;
 }
 
 footer {
